@@ -2,87 +2,48 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
-nav {
-    background-color: #333;
-}
-
-.logo a {
-    padding: 0; /* Remove default padding */
-}
-
-.logo-img {
-    height: 40px; /* Adjust size as needed */
-    width: auto; /* Keep the aspect ratio */
-    vertical-align: middle; /* Align the image vertically in the middle */   
-}
-
-.navbar {
-    list-style: none; /* Remove bullets */
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.nav-item {
-    position: relative;
-}
-
 .nav-item > a {
-    color: white;
     padding: 15px 20px;
     display: block;
     text-decoration: none;
-    background-color: #333;
     transition: background-color 0.3s;
 }
 
 .nav-item > a:hover {
-    background-color: #555;
+    color: black;
+    transition: 2ms;
 }
 
-.dropdown {
+.dropdown-menu {
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #333;
+    background: none;
     padding: 0;
     margin: 0;
     list-style: none; /* Remove bullets */
     min-width: 200px;
 }
 
-.dropdown li {
+.dropdown-menu li {
     padding: 0;
 }
 
-.dropdown a {
-    color: white;
+.dropdown-menu a {
+    color: rgb(66, 66, 66);
     padding: 10px 20px;
     display: block;
     text-decoration: none;
 }
 
-.dropdown a:hover {
-    background-color: #555;
+.dropdown-menu a:hover {
+    background-color: #e7e7e7;
 }
 
-.nav-item:hover .dropdown {
+.nav-item:hover .dropdown-menu {
     display: block;
     left: 0; /* Align dropdown under the parent item */
-}
-
-.register-login {
-    margin-left: auto; /* Pushes the links to the right */
-    display: flex;
-}
-
-.register-login a {
-    padding: 15px 10px;
-}
-
-.register-login a:hover {
-    background-color: #555;
 }
