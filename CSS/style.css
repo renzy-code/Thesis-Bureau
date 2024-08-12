@@ -14,6 +14,7 @@ body {
 .nav-item > a:hover {
     color: black;
     transition: 2ms;
+    background-color: #fff;
 }
 
 .dropdown-menu {
@@ -21,7 +22,7 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    background: none;
+    background: #fff;
     padding: 0;
     margin: 0;
     list-style: none; /* Remove bullets */
