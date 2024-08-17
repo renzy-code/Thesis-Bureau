@@ -48,3 +48,6 @@ body {
     display: block;
     left: 0; /* Align dropdown under the parent item */
 }
+.card:hover{
+    transform:rotateX(50%);
+}
